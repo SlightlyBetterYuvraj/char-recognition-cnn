@@ -8,6 +8,10 @@
 
 An interactive, deep learning-powered handwriting recognition web application. The system classifies handwritten English alphabet characters (**A – Z**) in real-time from a sleek drawing canvas using a Convolutional Neural Network (CNN) trained on the **EMNIST Letters** dataset.
 
+## Live Demo
+
+[Try the live app](https://char-recognition-cnn.streamlit.app/)
+
 ---
 
 ## ✨ Features
