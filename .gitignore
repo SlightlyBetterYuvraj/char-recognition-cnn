@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset files & large downloads (do not commit 6GB+ dataset)
+data/
+*.csv
+*.zip
+kaggle.json
+
+# Local environment / secrets
+.env
+.streamlit/secrets.toml
+
+# Operating System files
+.DS_Store
+Thumbs.db
