@@ -1,17 +1,16 @@
 # Core Deep Learning & Machine Learning
-tensorflow>=2.15.0
-keras>=3.0.0
-numpy>=1.24.0
-scikit-learn>=1.3.0
-pandas>=2.0.0
+tensorflow==2.15.1
+numpy==1.26.4
+scikit-learn==1.3.2
+pandas==2.1.4
 
 # Interactive Web Application
-streamlit>=1.35.0,<1.60.0
+streamlit==1.45.1
 streamlit-drawable-canvas==0.9.3
 
 # Image Processing & Visualization
-Pillow>=9.5.0
-matplotlib>=3.7.0
+Pillow==10.4.0
+matplotlib==3.8.4
 
 # Dataset acquisition (for main.ipynb)
-kaggle>=1.6.0
+kaggle==1.6.17
