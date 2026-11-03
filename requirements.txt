@@ -1,17 +1,18 @@
 # Core Deep Learning & Machine Learning
-# Keep Keras bundled with TensorFlow; do not install standalone keras separately.
+# TensorFlow 2.21 supports Python 3.10–3.13; use Python 3.13 on Streamlit Cloud.
+# Keras is installed as TensorFlow's dependency; do not pin it separately.
 tensorflow==2.21.0
-numpy==1.26.4
-scikit-learn==1.3.2
-pandas==2.1.4
+numpy==2.1.3
+scikit-learn==1.6.1
+pandas==2.2.3
 
 # Interactive Web Application
 streamlit==1.45.1
 streamlit-drawable-canvas==0.9.3
 
 # Image Processing & Visualization
-Pillow==10.4.0
-matplotlib==3.8.4
+Pillow==11.1.0
+matplotlib==3.10.1
 
 # Dataset acquisition (for main.ipynb)
 kaggle==1.6.17
